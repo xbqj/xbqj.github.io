@@ -2,7 +2,7 @@ baseURL: "https://xbqj.github.io/"
 languageCode: zh-cn
 title: 携笔强军
 
-publicDir: docs
+publishDir: docs
 defaultContentLanguage: zh-cn
 
 params:
