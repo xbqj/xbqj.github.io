@@ -1,0 +1,34 @@
+site_name: 携笔强军
+site_description: 携笔强军——大学生参军入伍帮助与支持
+theme:
+  name: material
+  language: zh
+  favicon: images/favicon.png
+  # logo: images/favicon.png
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: teal
+      accent: light-blue
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: teal
+      accent: light-blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: light-blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+
