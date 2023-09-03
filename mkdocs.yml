@@ -33,16 +33,61 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
+    - navigation.instant
     - navigation.tabs
     - navigation.path
+    - navigation.top
+    # - navigation.footer
+    - navigation.indexes
+    - toc.follow
 
   font:
     text: Sans Serif
     code: Sans Mono
 
 nav:
-  - 首页: index.md
-  - 前言: why.md
-  - 如何参军: how.md
-  - 关于我们: about.md
-  - 联系我们: contact.md
+  - 首页: 
+    - index.md
+    - 背景: introduction/background.md
+  - 写在前面: 
+    - foreword/index.md
+  - 前期准备: 
+    - preparations/index.md
+  - 入伍流程: 
+    - procedure/index.md
+  - 部队生活: 
+    - militarylife/index.md
+    - 认知篇: 
+      - 部队纪律: militarylife/recognition/discipline.md
+      - 核心价值观: militarylife/recognition/corevalues.md
+      - 使命任务: militarylife/recognition/mission.md
+      - 心理落差: militarylife/recognition/psychgap.md
+      - 真实生活: militarylife/recognition/reallife.md
+    - 生活篇: 
+      - 常见心理问题: militarylife/dailylife/commonproblems.md
+      - 做自己的心理导师: militarylife/dailylife/psychcounselor.md
+      - 想家了怎么办: militarylife/dailylife/homesick.md
+    - 社交篇: 
+      - 与战友相处: militarylife/social/withcomrades.md
+      - 与长官相处: militarylife/social/withofficers.md
+      - 与家人相处: militarylife/social/withfamily.md
+    - 训练篇: 
+      - 不想训练怎么办: militarylife/training/refusetotrain.md
+      - 平衡训练与健康: militarylife/training/balancetraining.md
+      - 正确看待训练结果: militarylife/training/trainingresults.md
+    - 功勋篇:
+      - 奖励目的: militarylife/merit/rewardpurpose.md
+      - 立功途径: militarylife/merit/meritpath.md
+      - 立功 tips: militarylife/merit/merittips.md
+      - 正确看待立功: militarylife/merit/meritresults.md
+    - 发展篇:
+      - 考学深造: militarylife/development/education.md
+      - 提干磨练: militarylife/development/promotion.md
+    - 老兵寄语: 
+      - militarylife/veteran/index.md
+  - 退役安置: 
+    - settlement/index.md
+  - 老兵访谈: 
+    - cases/index.md
+  - 联系我们: 
+    - contact/index.md
