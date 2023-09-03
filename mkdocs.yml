@@ -1,10 +1,11 @@
 site_name: 携笔强军
+site_url: https://xbqj.github.io
 site_description: 携笔强军——大学生参军入伍帮助与支持
 theme:
   name: material
   language: zh
   favicon: images/favicon.png
-  # logo: images/favicon.png
+  logo: images/favicon.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -31,4 +32,17 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.path
 
+  font:
+    text: Sans Serif
+    code: Sans Mono
+
+nav:
+  - 首页: index.md
+  - 前言: why.md
+  - 如何参军: how.md
+  - 关于我们: about.md
+  - 联系我们: contact.md
