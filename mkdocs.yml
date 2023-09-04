@@ -37,9 +37,10 @@ theme:
     - navigation.tabs
     - navigation.path
     - navigation.top
-    # - navigation.footer
+    - navigation.footer
     - navigation.indexes
     - toc.follow
+    - search.highlight
 
   font:
     text: Sans Serif
@@ -49,6 +50,10 @@ nav:
   - 首页: 
     - index.md
     - 背景: introduction/background.md
+    - 关于: introduction/about.md
+    - 名词解释: introduction/terminology.md
+    - 相关链接: introduction/links.md
+    - Q & A: introduction/qa.md
   - 写在前面: 
     - foreword/index.md
   - 前期准备: 
@@ -58,29 +63,35 @@ nav:
   - 部队生活: 
     - militarylife/index.md
     - 认知篇: 
+      - militarylife/recognition/index.md
       - 部队纪律: militarylife/recognition/discipline.md
       - 核心价值观: militarylife/recognition/corevalues.md
       - 使命任务: militarylife/recognition/mission.md
       - 心理落差: militarylife/recognition/psychgap.md
       - 真实生活: militarylife/recognition/reallife.md
     - 生活篇: 
+      - militarylife/dailylife/index.md
       - 常见心理问题: militarylife/dailylife/commonproblems.md
       - 做自己的心理导师: militarylife/dailylife/psychcounselor.md
       - 想家了怎么办: militarylife/dailylife/homesick.md
     - 社交篇: 
+      - militarylife/social/index.md
       - 与战友相处: militarylife/social/withcomrades.md
       - 与长官相处: militarylife/social/withofficers.md
       - 与家人相处: militarylife/social/withfamily.md
     - 训练篇: 
+      - militarylife/training/index.md
       - 不想训练怎么办: militarylife/training/refusetotrain.md
       - 平衡训练与健康: militarylife/training/balancetraining.md
       - 正确看待训练结果: militarylife/training/trainingresults.md
     - 功勋篇:
+      - militarylife/merit/index.md
       - 奖励目的: militarylife/merit/rewardpurpose.md
       - 立功途径: militarylife/merit/meritpath.md
       - 立功 tips: militarylife/merit/merittips.md
       - 正确看待立功: militarylife/merit/meritresults.md
     - 发展篇:
+      - militarylife/development/index.md
       - 考学深造: militarylife/development/education.md
       - 提干磨练: militarylife/development/promotion.md
     - 老兵寄语: 
