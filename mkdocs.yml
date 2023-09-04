@@ -99,6 +99,15 @@ nav:
       - militarylife/veteran/index.md
   - 退役安置: 
     - settlement/index.md
+    - 寄语: settlement/foreword.md
+    - 义务兵: settlement/compulsory/index.md
+    - 士官: 
+      - settlement/officer/index.md
+      - 退役条件: settlement/officer/requirements.md
+      - 退役安置: settlement/officer/settlement.md
+      - 档案管理: settlement/officer/archives.md
+      - 保险办理: settlement/officer/insurance.md
+      - 其他: settlement/officer/other.md
   - 老兵访谈: 
     - cases/index.md
   - 联系我们: 
